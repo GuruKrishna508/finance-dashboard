@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-const API_URL = 'http://localhost:3001';
+const API_URL = 'https://finance-dashboard-73ck.onrender.com';
 
 function App() {
   const [activeTab, setActiveTab] = useState('overview');
